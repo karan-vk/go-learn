@@ -1,5 +1,9 @@
 Go day-1 [7-6-2020]
 
+[Basics] go 
+=> fmt is the format default library availabe in go
+
+
 
 [2]  Syntax
 
