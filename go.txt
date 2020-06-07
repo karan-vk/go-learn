@@ -1,0 +1,9 @@
+Go day-1 [7-6-2020]
+
+
+[2]  Syntax
+
+[2.1] Variables
+=> Type is Life without type there is no integrity
+
+
