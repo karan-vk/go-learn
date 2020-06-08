@@ -8,4 +8,5 @@ func main() {
 	// cards.shuffle()
 	cards.print()
 	println(len(cards))
+	println("projet competęz")
 }
