@@ -23,15 +23,15 @@ func main()  {
 	Karan.contact.email="karanvknarayanan@gmail.com"
 	Karan.contact.zipCode=600064
 	Karan.print()
-	fmt.Println()
+	fmt.Println("")
 	Karan.updateName("Jay")
-	// Karan.print()
+	Karan.print()
 	
 	
 }
-func (p person)updateName(new string){
+func (p *person)updateName(new string){
 	p.Firstname=new
-	p.print()
+	// p.print()
 }
 
 func (p person)print()  {
