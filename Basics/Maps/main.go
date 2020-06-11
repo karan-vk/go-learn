@@ -10,6 +10,7 @@ func main()  {
 }
 println(color)
 delete(color,"yellow")
+// delete(color,"white")
 	
 	mapPrint(color)
 	
