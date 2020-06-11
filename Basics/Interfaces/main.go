@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type bot interface {
 	getGreeting() string
 }
@@ -17,7 +15,7 @@ func main() {
 
 }
 func printGreeting(a bot) {
-	fmt.Println(a.getGreeting())
+	println(a.getGreeting())
 
 }
 
