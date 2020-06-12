@@ -1,2 +1,3 @@
 =>go only has direct acces to the memory
-    
+    Everything in Go is passed by value
+    address are data

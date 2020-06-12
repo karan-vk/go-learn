@@ -9,14 +9,17 @@ func main() {
 	println("count:\tValue Of[", count, "]\tAddr Of[", &count, "]")
 
 	// Pass the "value of" the count.
-	increment(count)
+	increment(&count)
 
 	println("count:\tValue Of[", count, "]\tAddr Of[", &count, "]")
 }
 
-func increment(inc int) {
+func increment(inc *int) {
 
 	// Increment the "value of" inc.
-	inc++
-	println("inc:\tValue Of[", inc, "]\tAddr Of[", &inc, "]")
+	*inc++
+	println("inc:\tValue Of[", inc, "]\tAddr Of[", *inc, "]")
 }
+
+
+
