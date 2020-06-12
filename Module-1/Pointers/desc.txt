@@ -1,0 +1,2 @@
+=>go only has direct acces to the memory
+    
