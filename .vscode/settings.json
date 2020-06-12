@@ -1,6 +1,6 @@
 {
     // "editor.cursorBlinking": "expand",
-    // "go.autocompleteUnimportedPackages": true,
+    "go.autocompleteUnimportedPackages": true,
 
     
     

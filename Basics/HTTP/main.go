@@ -17,11 +17,13 @@ func main() {
 	}
 	lw := logWriter{}
 	io.Copy(lw, resp.Body)
+
 }
 
 func (logWriter) Write(bs []byte) (int, error) {
 	fmt.Println(string(bs))
 	println("*************", len(bs), "**************")
+
 	return len(bs), nil
 
 }
